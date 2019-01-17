@@ -1,12 +1,8 @@
 package iterate
 
-import (
-	"got-running-256/internal/iterate"
-)
-
 // ExampleZeroInc will triy to output
 func ExampleZeroInc() {
-	iterate.ZeroInc(1, 1)
+	ZeroInc(1, 1)
 	// Output:
 	// 1 1 0
 	// 1 1 1
