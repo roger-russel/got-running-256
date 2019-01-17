@@ -8,4 +8,4 @@ Just a benchmark project for study go routines.
 
 On root project folder run:
 
-$ ```go test ./... -coverprofile=./test/_output/coverage.out && go tool cover -html=./test/_output/coverage.out```
+$ ```go test ./... -coverprofile=./coverage/system.cov && go tool cover -html=./coverage/system.cov -o coverage/system.html```
